@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.package, .contact, .service, .about {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+}
+
+.jumbotron {
+   padding: 20px;
+   background-image: url('img/poto2.jpg');
+   background-size: cover;
+   height: 620px;
+   margin-top: 20px;
+  
+}
+
+.jumbotron .display-4{
+   margin-top: 150px; 
+   margin-left: 350px;
+   font-size: 30pt;
+   font-weight: bold;
+   color: #eeee;
+}
+.jumbotron .lead{
+   margin-left: 350px;
+   color: #eeee;
+}
+.jumbotron hr{
+   margin-left: 350px;
+   width: 600px;
+}
+.jumbotron .lead{
+   margin-left: 350px;
+   
+}
+.jumbotron .btn {
+   margin-left: 350px;
+}
+.card {
+   width: 20rem;
+   margin-top: -50px;
+}
+.card .display-4 {
+   font-size: 20px;
+}
+.garis {
+   width: 100px;
+   border-top: 3px solid #eaeaea;
+   margin-top: -50px;
+}
+.col-md-3 img {
+   margin-left: 100px;
+   margin-top: -20;
+}
+.testimonial {
+   background-color: #cce3ff;
+}
+.nav-link {
+   margin-left: 5;
+}
+
